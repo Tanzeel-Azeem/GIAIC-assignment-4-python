@@ -31,4 +31,4 @@ if upload_data is not None:
     if st.button("Generate Plot"):
         st.line_chart(filtered_df.set_index(x_column) [y_column])   
 else:
-    st.write("Waiting on file upload....")
+    st.write("Waiting for file to be upload...")
